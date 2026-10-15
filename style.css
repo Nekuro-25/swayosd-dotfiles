@@ -1,0 +1,24 @@
+/* ~/.config/swayosd/style.css */
+/* Matched to config/settings.lua palette:
+   border = #ffffff, rounding = 8, bg dark */
+
+window#osd {
+    background-color: rgba(17, 17, 17, 0.93);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+#osd label,
+#osd image {
+    color: #ffffff;
+}
+
+#osd progressbar trough {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+}
+
+#osd progressbar progress {
+    background-color: #ffffff;
+    border-radius: 4px;
+}
